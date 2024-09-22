@@ -29,7 +29,7 @@ const App = () => {
           <h2>
             Count :
           </h2>
-          <h2>{currentNumber}</h2>
+          <h2 className='currentNumber'>{currentNumber}</h2>
 
           <div className='button-opr'>
             <button onClick={increment}>Increment</button>
