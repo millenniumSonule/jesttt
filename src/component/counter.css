@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+  }
+  
+  /* Set default font and line height */
+  html {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Ensure full height layout */
+  html, body {
+    height: 100%;
+  }
+  
+  /* Remove list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove text decoration and change color for links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remove borders from images and buttons */
+  img, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+.container-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    height: auto;
+}
+
+.button-opr button{
+    margin:10px;
+}
