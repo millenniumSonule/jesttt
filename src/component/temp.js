@@ -1,8 +1,9 @@
-(function fetchData() {
-    return new Promise((resolve,reject) =>{
-        setTimeout(() => {
-            resolve('resolve');
-        },2000);
-    })
-})()  //IIFE
+const dog = {
+    name: 'Fido',
+    speak: function() {
+        console.log(`Woof! ${this.name}`);
+    }
+}
 
+console.log(dog.name);
+dog.speak();
