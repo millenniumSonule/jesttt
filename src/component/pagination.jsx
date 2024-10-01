@@ -42,8 +42,7 @@ const Pagination = () => {
                 }
                 <div className='prev-next-btns'>
                 <button>Prev</button>
-                {0}
-                <button>Next</button>
+                {0}                <button>Next</button>
             </div>
             </div>
             

@@ -5,7 +5,7 @@ import Pagination from './component/pagination'
 const App = () => {
   return (
     <div className='container'> 
-      <Pagination/>    
+
     </div>
   )
 }
