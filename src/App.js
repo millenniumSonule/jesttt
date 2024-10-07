@@ -1,11 +1,10 @@
 import React from 'react'
-import Counter from './component/counter'
-import Pagination from './component/pagination'
 
+import FileExplorer from './component/fileExplorer'
 const App = () => {
   return (
     <div className='container'> 
-        
+        <FileExplorer/>
     </div>
   )
 }
